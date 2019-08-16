@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8F9BEE"
+    android:background="#8DD7F8"
     tools:context=".HomePage">
 
 
@@ -45,12 +45,12 @@
         android:layout_height="48dp"
         android:layout_alignParentRight="true"
         android:layout_marginTop="12dp"
-        android:background="#000000"
+        android:background="#F8F6F6"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Add"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#FFFFFF"
+        android:textColor="#070707"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/noofitem"
