@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949545669671",
+    "firebase_url": "https://stockmaster2-e8b99.firebaseio.com",
+    "project_id": "stockmaster2-e8b99",
+    "storage_bucket": "stockmaster2-e8b99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949545669671:android:2ed3bdae05967f91",
+        "android_client_info": {
+          "package_name": "com.sathish.stockmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949545669671-erv641ct4cqdn45m6rhhlt9v6s51v02d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sathish.stockmaster",
+            "certificate_hash": "78c8774da5a942facc20d4a064568b190fbe487f"
+          }
+        },
+        {
+          "client_id": "949545669671-h7q9ep7g34n69n8se7ssnlpla102d2e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKJjRsE525Ljk7GMqtrKSGxKFvYUIyhfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949545669671-h7q9ep7g34n69n8se7ssnlpla102d2e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

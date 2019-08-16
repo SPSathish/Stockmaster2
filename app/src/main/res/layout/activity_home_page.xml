@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F9BEE"
+    tools:context=".HomePage">
+
+
+    <EditText
+        android:id="@+id/itemname"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toLeftOf="@+id/addItem"
+        android:background="#FFFFFF"
+        android:hint="Item Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/noofitem"
+        android:layout_width="285dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/addItem"
+        android:background="#FFFFFF"
+        android:hint="No Of Items"
+        app:layout_constraintEnd_toEndOf="@+id/itemname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/itemname"
+        app:layout_constraintTop_toBottomOf="@+id/itemname" />
+
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/noofitem"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="@+id/noofitem"
+        app:layout_constraintTop_toBottomOf="@+id/noofitem" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="374dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addItem"
+        app:layout_constraintVertical_bias="0.906"></ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
